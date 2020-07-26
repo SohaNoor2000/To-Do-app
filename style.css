@@ -1,0 +1,63 @@
+body{
+    background:linear-gradient(to left,#607db8,#d459cb);
+  
+    
+
+}
+.main
+{
+    text-align: center;
+    align-items: center;
+    margin: 10px auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    
+}
+i{
+    padding-left: 3px;
+    color: black;
+}
+input
+{
+    width: 300px;
+    border: #ffffff;
+    padding: 10px;
+}
+.button :active{
+    transform: scale(0.95);
+
+    border: white;
+}
+h2{
+    color: white;
+}
+#list
+{
+    margin-top: 10px;
+  
+}
+.button
+{
+    color:white;
+border-radius: 30%;
+border: white;
+padding: 10px;
+margin-top:10px;
+margin-right: 10px;
+background:linear-gradient(45deg,#ff88fb,#ff00ec );
+transition: all ease 1s;
+box-shadow: 0px 8px 25px #bf5fc045,0 8px 25px #ff00ec50;
+
+}
+.button :active{
+    transform: scale(0.95);
+    border: white;
+}
+@media screen and (max-width:550px)
+{
+    #todo_item
+    {
+        width: 90%;
+     
+    }
+}
